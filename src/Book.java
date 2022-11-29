@@ -2,7 +2,7 @@ import java.util.Objects;
 
 public class Book {
     private final String titleOfTheBook;
-    Author author = new Author("Лев", "Толстой");
+    Author author = new Author("Лев", "Толстой"); //Указать в объекте переменные с класса Author не удается т.к. они private, поэтому сразу присвоила переменные.
     public int yearPublication;
     public Book (String titleOfTheBook, Author author, int yearPublication) {
         this.titleOfTheBook = titleOfTheBook;
